@@ -4,20 +4,5 @@ Python script that can detect suspicious activity on your nginx server, from che
 Script de Pyhton que detecta actividad sospechosa en u servidor en nginx, analizando tu log de "access".
 
 
-Ejemplo de salida / Output example:
+![image](https://github.com/user-attachments/assets/ce35413c-0b42-47f9-96ea-90d35cdfcb5f)
 
-IPs table:
-+-----------------+----------------+--------------------------------------------------+
-|        IP       | Total activity |                  Vulnerability                   |
-+-----------------+----------------+--------------------------------------------------+
-|   1.1.1.1       |       4        |           Command Injection (2 times)            |
-|                 |                |         Malicious Bot Activity (2 times)         |
-+-----------------+----------------+--------------------------------------------------+
-|  2.2.2.2        |       4        |           Command Injection (4 times)            |
-+-----------------+----------------+--------------------------------------------------+
-|  3.3.3.3        |       60       |           Command Injection (35 times)           |
-|                 |                | File Access Attempt (sensitive files) (20 times) |
-|                 |                |          Admin Access Attempt (1 times)          |
-|                 |                |              API Scanning (2 times)              |
-|                 |                |      Path Scanning (common paths) (2 times)      |
-+-----------------+----------------+--------------------------------------------------+
